@@ -1,29 +1,27 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "rossocheath/filament-mail-dynamic-setting",
+    "description": "This is my package filament-mail-dynamic-setting",
     "keywords": [
-        ":vendor_name",
+        "Rossocheath",
         "laravel",
-        ":package_slug"
+        "filament-mail-dynamic-setting"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/rossocheath/filament-mail-dynamic-setting",
     "support": {
-        "issues": "https://github.com/:vendor_slug/:package_slug/issues",
-        "source": "https://github.com/:vendor_slug/:package_slug"
+        "issues": "https://github.com/rossocheath/filament-mail-dynamic-setting/issues",
+        "source": "https://github.com/rossocheath/filament-mail-dynamic-setting"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ros socheath",
+            "email": "rossocheat1@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "filament/filament": "^3.0",
-        "filament/forms": "^3.0",
-        "filament/tables": "^3.0",
         "spatie/laravel-package-tools": "^1.15.0"
     },
     "require-dev": {
@@ -41,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Rossocheath\\FilamentMailDynamicSetting\\": "src/",
+            "Rossocheath\\FilamentMailDynamicSetting\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Rossocheath\\FilamentMailDynamicSetting\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -67,10 +65,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Rossocheath\\FilamentMailDynamicSetting\\FilamentMailDynamicSettingServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentMailDynamicSetting": "Rossocheath\\FilamentMailDynamicSetting\\Facades\\FilamentMailDynamicSetting"
             }
         }
     },
